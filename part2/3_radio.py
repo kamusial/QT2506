@@ -1,4 +1,4 @@
-Form# Form implementation generated from reading ui file '.\3_radio.ui'
+# Form implementation generated from reading ui file '.\3_radio.ui'
 #
 # Created by: PyQt6 UI code generator 6.4.2
 #
@@ -7,9 +7,10 @@ Form# Form implementation generated from reading ui file '.\3_radio.ui'
 
 
 from PyQt6 import QtCore, QtGui, QtWidgets
+from PyQt6.QtWidgets import QDialog
 
 
-class Ui_Form(object):
+class Ui_Form(QDialog):
     def setupUi(self, Form):
         Form.setObjectName("Form")
         Form.resize(480, 336)
